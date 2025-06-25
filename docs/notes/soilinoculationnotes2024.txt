@@ -1,0 +1,156 @@
+Started 17 March 2024
+Happy St Patricks Day
+
+<><><><><><><><>
+MW David Lipson
+17 February 2025 in San Diego
+Transcribed red and black notebook notes (and my memory, transcribed on 23 Feb 2025)
+
+1. How much to inoculate with and how to decide?
+
+Since you are autoclaving the added soil you need not worry so much about adding nutrients, thus add what you can. He has put soil in sterile water at 10:1 solution and poured it on potting soil and it worked fine (there are SO MANY bacteria and fungi in even a small sample that you only lose SUPER rare stuff). 
+
+Good idea to mix in water and the pour on! More even.
+
+2. Wait to add seeds after inoculation or just add immediately?
+
+Since we say we're working on seed pathogens they will need seeds to grow so add seeds immediately! (Otherwise just growing up other stuff).
+
+3. Autoclave ALL soil except for the inoculated soils?
+
+Yes, definitely, you idiot.
+
+4. Should we sterilize seeds?
+
+Yes, surface sterilize them. Lots of papers report how to do it, it should be something like a bit of bleach and some detergent (Tween?)
+
+5. What else to worry about?
+
+Be sure to do tests on each seed lot so we know germination % before we finalize design of seed number.
+
+Put stuff in epi-tubes at the end. One 15 cc tube per experiment is good even if you eventually only need 1 g. 
+
+Other notes:
+- Take your soil from field site and put in cooler immediately, then put in fridge (4C) because you want to keep critters active. Don't freeze soil!
+- Collect when seeds fall seems good.
+ 
+
+
+<><><><><><><><>
+Lit review and important websites for DNA part
+<><><><><><><><>
+
+Use this product:
+https://www.genewiz.com/Public/Services/Molecular-Genetics/Bacterial-and-Fungal-Identification/
+Which includes data analysis:
+https://web.genewiz.com/16s-ez-faq
+And then check out what we find against some database, like this:
+http://www.phi-base.org/
+
+
+Best practices in metabarcoding of fungi (https://onlinelibrary.wiley.com/doi/10.1111/mec.16460) 
+
+Accuracy of taxonomy prediction for 16S rRNA and fungal ITS sequences (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5910792/)
+
+Improved Bacterial 16S rRNA Gene (V4 and V4-5) and Fungal Internal Transcribed Spacer Marker Gene Primers for Microbial Community Surveys (https://journals.asm.org/doi/full/10.1128/msystems.00009-15)
+
+Use of 16S rRNA Gene for Identification of a Broad Range of Clinically Relevant Bacterial Pathogens (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117617)
+
+
+
+<><><><><><><><>
+Lit review of inoculation
+<><><><><><><><>
+
+DARWIN's inoculation procedures include autoclaving:  
+bccoexistence/Experiment/Experimental_methods.txt
+
+Zotti et al 2023: 
+- autoclaving
+- 2% litter added to 2kg total
+- 20 C temperature
+
+vanderPutten_1988
+- 18 C
+- 1.5 l pots
+- 1, 15, and 50% inoculation
+- 5 reps
+
+Ma et al. 2018
+- Seeds were surface sterilized in 3% sodium hypochlorite solution for 1 min, rinsed and germi- nated on sterile glass beads in a climate chamber at 20 °C (16 h/8 h, light/dark). 
+- 5 seeds per pot
+- 70%RH,16h 21°C(day) and 8 h 16°C(night).
+- 10% inoculum (but from phase 1 to phase 2 ... not a field study as best I can tell)
+- 1 L pots
+- Hence, cycle 1 comprised of 810 pots (8 plant species-specific soil inocula × 3 dis- ease treatments × 10 soil replicates × 3 pot replicates + non-inoculated soil × 3 disease treatments × 10 soil replicates × 3 pot replicates). 
+
+Coughlin et al. 2021
+- Soils were stored at 4C for up to 2.5 weeks until use.
+- 'matrix potting soil'
+- steam sterilized for 45 minutes
+- Sample size was 10 seedlings per soil treatment
+- 2L tree pots
+- 2.5% soil inoculum
+
+
+Brinkman et al. 2010 cites vanderPutten_1988 (appendix C) for 1-15% inoculum having an effect.
+
+
+Less useful papers:
+Beals_2020 
+Jayaraman_etal_2021
+Paulitz_2000
+
+
+
+<><><><><><><><>
+Submitted text 
+(Adding this Feb 2025)
+<><><><><><><><>
+
+3.3.4. Experimental Quantification of Seed Pathogen Effects on Seeds and Germinants
+To determine effects of seed pathogens, and how these rates vary across time and space depending on seed density, we propose to annually perform whole soil inoculation studies in the lab as a bioassay method. We will use soil adjacent to each seed trap / seedling quadrat pair to inoculate sterile soil placed in germination boxes with seeds of focal species, and measure seed and germinant survival during stratification and germination as seeds interact with pathogens. A lab (or greenhouse) approach is commonly used to assess the role of soil pathogens and mutualists in affecting plant performance (Pernilla Brinkman et al. 2010; Bennett & Klironomos 2019), while controlling for the many environmental factors that vary in the field. As with cafeteria trials, these assays will only be conducted using soils from 6 (of the 10) forest sites in the US. A paired treatment with the same soil that is sterilized will serve as a control for each soil treatment. Because our goal is to link pathogen effects on seeds or germinants to spatio-temporal variation in seed density on the forest floor, each focal species will only be matched with soils from forest sites where they are present, leading to 27-45 soil types per focal species (replicated 3x), with the same number of control trays per soil type. This leads to 1200 (CH) and 972 (USA) germination assays annually - a large experiment, but well within the capability of both groups (e.g. Flynn & Wolkovich 2018; Visakorpi et al. 2024).
+
+Seed pathogen assays will be conducted as follows. In fall (at the time of maximum seed density), we will take four small soil samples (2.5 cm diameter, 5 cm depth - including litter) from adjacent to each seed trap. Soil corers will be sterilized between seed traps, and soils put into sterile ziplock bags in coolers, and brought back to the nearest PI’s lab (ETH for Swiss soils or UBC for US soils). Each soil sample will be homogenized, then split in half, with half being untreated and containing their full inoculating bacterial and fungal community and half being autoclaved (potentially twice, based on plating assays). Soils will then be mixed with sterile (autoclaved) base soil at a 1:10 dilution, to control for other differences in soil type (as is standard - Pernilla Brinkman et al. 2010). Germination boxes (10x12.5 cm) will be filled with 5 mm of soil on top of germination paper, with all boxes from the same soil type filled sequentially and under sterile conditions. Seeds from focal species (from nearby forests collected by seed companies - Silva Seeds in US, WSL in CH) will be surface sterilized and then added to each germination box (separate boxes per focal species). Germination boxes will be seeded with 20-50 seeds (depending on seed size), and stratified according to species-specific germination requirements. After stratification, germination boxes will be placed in climate controlled chambers (available in both labs), and germination followed for up to 60 days in ideal germination conditions, with counts of new and newly deceased germinants taken every 2-4 days. Following germination trials, remaining seeds will be tested for viability using tetrazolium tests, to distinguish dormant seeds from inviable or decayed seeds.
+
+
+Additionally, we will use sequencing to characterize soil microbial communities, potentially allowing us to identify seed pathogens driving seed mortality for focal tree species....
+
+
+<><><><><><><><>
+Proposed text 
+17 March 2024
+<><><><><><><><>
+
+To test for the presence and impact of soil pathogens while controlling for other variables, we propose to perform soil inoculation experiments. These experiments, commonly used to assess plant-soil feedbacks, use field-collected soil as inoculum added into otherwise controlled conditions for germination. By contrasting the fates of standardized seeds in inoculated versus sterilized soils, they will allow us assess the biotic impacts of soils. This approach is standard for assessing the role of soil pathogens (both bacteria and fungi, though we expect and propose a design assuming the major pathogens of seeds are fungi, as is common, Anderson et al. 2004; Fisher et al. 2012), and provides an important and useful baseline control through sterilized soils.
+
+Given our aim to assess variation in recruitment across years, space and species, years we propose to gather field soils from next to two seed traps per stand (selecting traps to maximize the variation in seed density between traps within a stand) at 5 stands each in Washington USA and Switzerland (10 stands total). To standardize seeds as much as possible and isolate soil effects, we plan to use sterilized seeds obtained from local seed orchards -- seeds for each stand will be for the 2-3 dominant species (we estimate two species per stand in our sample sizes here). Given 6 replicates across inoculated and sterilized treatments yields: 10 stands x 2 traps per stand x 2 species of seed x 2 treatments x 6 replicates yields 480 sample units, or 240 per country, which is a tractable number. Given our planned dilution of 1:50 (2%, which is common in similar studies: Coughlin et al. 2021 and to Zotti et al 2023), this design will require minimal soil per stand (we estimate 2800 cm^3). 
+
+To gather inoculation soils in a way most similar to what seeds experience in the field, we will take soil samples no more than 5 cm deep with litter and duff retained in the fall (when seeds in these systems are generally falling onto the soil). We will sieve soils for large rocks in the lab (while keeping them moist and cool) then autoclave (121 C) standard sterile germination potting soil (commercially purchased as our matrix soils) and half of the soil collected from the field for an hour. To ensure the soils are sterile we will test by spreading a small amount of the soils on agar plates in fume hoods and examine for expected growth after 72 hours (no growth on sterile soils, but growth on field-collected non-autoclaved soils). 
+
+We will follow all standard procedures to avoid cross contamination: changing gloves between working with different soils (or touching anything outside of the sterile system), blocking sterile and field-inoculated soils to keep them relative separate, and putting the inoculated soil as a middle layer in pots between a top and bottom layer of sterile soil. 
+
+After this we will add our sterilized seeds (1 species per sample) and stratify specific to each seed species, then follow germination for up to 60 days in ideal germination conditions, taking count of new or newly deceased germinants every 3-4 days.
+
+Citations that are our diultions are good:
+- Brinkman et al. 2010 cites vanderPutten_1988 (appendix C) for 1-15% inoculum having an effect.
+- It's similar to Coughlin et al. 2021 and to Zotti et al 2023. 
+
+<><><><><><><><>
+First draft
+16 March 2024
+Too focused on weighted conspecific density (might confuse readers to get into this)
+<><><><><><><><>
+
+We propose to perform repeating whole soil inoculation studies (one per year) as a bioassay method that will allow us to estimate the effects of soil pathogens while controlling for other variables. This approach is standard for assessing the role of soil pathogens (both bacteria and fungi, though we expect and propose a design assuming the major pathogens of seeds are fungi, as is common in these systems, CITES) and provides a baseline control through sterilized soils.
+
+Given our aim to assess variation across species, years and recruitment relative to distance to host conspecifics we propose the following experiment each year:
+- For 4 germinant plots per stand we will take small soil samples at near and far geographical distances per plot (4 x 2 = 8). From these 8 total samples we will estimate distance to weighted conspecific adult for each germinant resulting in a high diversity of total relevant distances.
+- To standardize seeds as much as possible and isolate soil effects, we propose to use sterilized seeds obtained from local seed orchards -- seeds for each stand will be for the 2-3 dominant species (we estimate two species per stand).
+- Working at 3 stands in each country and assuming 8 replicates of control and 8 replicates of inoculated yields:
+
+3 stands x 8 soil samples per stand x 2 species of seed x 6 replicates x 2 treatments will yield 96 germination samples. [People seem to think this is manageable!]
+
+We propose a dilution of 1:50 and thus will need minimal soil from each stand.
+
+We will autoclave all the standard medium soil and half the sampled soil from the stands (for the control) then will inoculate trays under sterile conditions and leave for one week before verifying the treatments using agar plating. After this we will add our sterilized seeds (1 species per sample) and stratify specific to each seed species, then follow germination for up to 60 days in ideal germination conditions, taking count of new or newly deceased germinants every 2-4 days.

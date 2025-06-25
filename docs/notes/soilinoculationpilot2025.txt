@@ -1,0 +1,50 @@
+Soil inoculation design: Pilot year
+26 May 2025: Plan with Janneke and Lizzie
+
+See also:
+soilinoculationnotes
+
+Overall:
+- Do it at MORA and Swiss sites
+- Pick two species at each site
+- Pick two locations at each site to try to control for species density (see below)
+- 10 reps
+- So 2 spp x 2 locations x treatment (inoculated or not) x 10 reps = 80 germination trays this year
+
+Species (we sort of picked more-masting species and less, but also just picked fairly feasible species):
+- MORA will be TSHE and then either: THPL or PSME
+- Swiss: FagSyl and Acecam (or something else)
+
+Soil selection:
+- In future years we would hope to pick seed traps with highly divergent seed densities but this year we will...
+-> Pick two traps to sample year aiming to get a HIGH and LOW density of a focal species and ideally a high and low density of both focal species (e.g., pick a trap with high TSHE and low PSME and a trap with low TSHE and high PSME)
+- For Pack Forest this means we need to set up the same grid as we have at MORA at Pack Forest
+
+We need to finalize the protocol for:
+- soil depth
+- how many soil samples to take and homogenize
+- soil dilution into germination trays
+
+We plan to:
+- Keep soils at 4C until experiment starts (and it should start soon after soil collection)
+- Stratify seeds on treatment soils (assuming the stratification etc. vaguely match seasonal conditions, e.g., starting with cool temperatures). 
+
+Do now:
+- Get the stratification details for our species and make sure we can get seeds. 
+
+
+--------------------
+Original thoughts 16 May 2025
+
+Overview questions:
+1) Pick two species that occur at PARA and AE10 (or near Longmire)? ... and then make sure we can get seeds for them OR pick based on similar species across Switzerland and USA (not sure that is possible and depends on point 2)
+2) Also do in Switzerland? Then we can maybe see if we get weirdly different results that in away push us towards 
+3) Stratify seeds first? Or do it all on the soils as proposed? (If stratify first, when do we surface sterilize?) 
+
+Treatments:
+- inoculated vs not
+- high x low sites
+- 2 spp
+= 8 treatments x 10 reps = 80 trays
+
+- distance from conspecific? 
