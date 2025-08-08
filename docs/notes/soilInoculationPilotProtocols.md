@@ -27,6 +27,9 @@ Things to bring:
 - Sharpie to label bags as we go  
 - Cooler for just soil  
 - Data sheet if there is sufficient data to collect (soil layers, tree cover, …)
+- Gloves ($30 at Canadian Tire)
+
+- Total cost: $30
 
 **Lab protocol: experiment set-up \- August 16-23 (10-20 hours)**
 
@@ -60,12 +63,14 @@ Things to bring:
 Things we need:
 
 - Plant pots (might have enough already)  
-- Seeds  
-- Agar and agar plates  
-- Soil  
-- Bleach solution  
+- Seeds (waiting on an estimate from Dave, hopefully free)
+- Agar and agar plates ($22)
+- Soil ($20 from Canadian Tire)
+- Bleach solution ($7 at Canadian Tire)
 - Gloves (if we don’t have in lab)  
-- Hydrogen peroxide and/or tetrazolium
+- Hydrogen peroxide and/or tetrazolium ($5 for H2O2 at Shoppers)
+
+- Total Cost: $55
 
 **Lab protocol: germination monitoring and data collection \- August 23 onwards (10 hours per week)**
 
