@@ -27,7 +27,7 @@ Things to bring:
 - Sharpie to label bags as we go  
 - Cooler for just soil  
 - Data sheet if there is sufficient data to collect (soil layers, tree cover, …)
-- Gloves ($30 at Canadian Tire)
+- Gloves ($22 for 100 ct at Shoppers)
 
 - Total cost: $30
 
