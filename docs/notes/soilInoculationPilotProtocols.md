@@ -96,5 +96,7 @@ Wenny, D. L., & Dumroese, R. K. (1987). Germination of conifer seeds surface-ste
 
 *Tree planters’ notes*, *38*(3), 18-21.
 
+James, R. L., Dumroese, R. K., Gilligan, C. J., & Wenny, D. L. (1988). Epidemiology of Fusarium on containerized Douglas-fir seedlings. 3. Pathogenicity of selected Fusarium isolates from Douglas-fir seed and seedlings. USDA Forest Service, Northern Region (In preparation).
+
  
 
