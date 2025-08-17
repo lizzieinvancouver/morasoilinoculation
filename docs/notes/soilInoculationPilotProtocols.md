@@ -39,7 +39,8 @@ Things to bring:
     * Discard bleach solution after a single use  
   * Soak in water with constant agitation for 5 minutes to rinse off bleach to prevent damage to seeds  
   * Wenny 1987 suggests rinsing in running tap water for 2 days continuous to ensure all bleach is removed (may not be necessary)  
-* Hydrogen peroxide or tetrazolium tests can estimate viability in about 7 days  
+* Hydrogen peroxide or tetrazolium tests can estimate viability in about 7 days
+  * Viability tests should be performed on around 100 seeds (could manually check inside 50 seeds and do viability tests on another 50 after that)
   * Details on how to do this in Leadem 1984  
   * Hydrogen peroxide is good for douglas fir but less ideal for western hemlock due to its small seed size  
   * Tetrazolium test can be used for western hemlock if we have it available  
@@ -50,11 +51,11 @@ Things to bring:
   * Autoclave time slot will need to be booked (Nolan can take care of this, will decide on dates and times soon)  
   * It should be possible to autoclave most of the soil in one go (2 hours maximum), but two timeslots should be booked in case agar plates show microbial growth  
   * After autoclaving, perform microbial assays using agar plates  
-    * Perform a microbial plating for each autoclaving bag to ensure each one is sterile (Mao or Lizzie can confirm this?)  
+    * Perform two microbial platings for each of the 3 levels in the autoclave (6 plates per autoclave session)
     * Contact Jenny Escano [mjescano@mail.ubc.ca](mailto:mjescano@mail.ubc.ca) for agar at $21.05 per litre which is enough for 50 plates (may be cheaper options available, didn’t see any on UBC stores)  
 * Using autoclaved soil and sterilized seeds, set up each of the 80 treatments in separate plant pots  
   * Literature review suggests 1L pots is a good volume to use for each treatment  
-  * 5-10 seeds per pot  
+  * 10 seeds per pot  
     * Place the seeds so that they are evenly distributed throughout the pot, 1-2 cm deep in the soil  
   * Fill pot half way with sterilized matrix soil, then add inoculum as a mixture with water (or autoclaved field soil), then cover with more sterile matrix soil   
   * 10% inoculation ratio means we should have about 90mL of inoculum in each soil pot and 900mL (or 0.9L) of sterile matrix soil  
