@@ -33,7 +33,8 @@ Things to bring:
 
 **Lab protocol: experiment set-up \- August 16-23 (10-20 hours)**
 
-* Sterilize seeds with a laundry bleach solution containing 2 parts bleach to 3 parts water (Wenny and Dumroese 1987\)  
+* Sterilize seeds with a laundry bleach solution containing 2 parts bleach to 3 parts water (Wenny and Dumroese 1987\)
+  * No notes in Lipson about bleach concentration, James 1987 (and other papers) suggests using 40% bleach to 60% distilled water
   * Soak in bleach solution for 10 minutes with constant agitation  
     * Discard bleach solution after a single use  
   * Soak in water with constant agitation for 5 minutes to rinse off bleach to prevent damage to seeds  
@@ -89,14 +90,14 @@ Things we need:
 **References**
 
 Leadem, C. L. S. (1984). *Quick tests for tree seed viability* (No. 18, pp. viii+-45). Province of British
-
-Columbia, Ministry of Forests.
+    Columbia, Ministry of Forests.
 
 Wenny, D. L., & Dumroese, R. K. (1987). Germination of conifer seeds surface-sterilized with bleach.
+    *Tree planters’ notes*, *38*(3), 18-21.
 
-*Tree planters’ notes*, *38*(3), 18-21.
-
-James, R. L., Dumroese, R. K., Gilligan, C. J., & Wenny, D. L. (1988). Epidemiology of Fusarium on containerized Douglas-fir seedlings. 3. Pathogenicity of selected Fusarium isolates from Douglas-fir seed and seedlings. USDA Forest Service, Northern Region (In preparation).
+James, R. L., Dumroese, R. K., Gilligan, C. J., & Wenny, D. L. (1988). Epidemiology of Fusarium on containerized Douglas-fir
+    seedlings. 3. Pathogenicity of selected Fusarium isolates from Douglas-fir seed and seedlings. USDA Forest Service, Northern
+    Region (In preparation).
 
  
 
