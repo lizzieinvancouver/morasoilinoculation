@@ -52,9 +52,11 @@ Things to bring:
   * It should be possible to autoclave most of the soil in one go (2 hours maximum), but two timeslots should be booked in case agar plates show microbial growth  
   * After autoclaving, perform microbial assays using agar plates  
     * Perform two microbial platings for each of the 3 levels in the autoclave (6 plates per autoclave session)
+    * Keep plates in a warm place, 2-3 days to show microbial activity
     * Contact Jenny Escano [mjescano@mail.ubc.ca](mailto:mjescano@mail.ubc.ca) for agar at $21.05 per litre which is enough for 50 plates (may be cheaper options available, didn’t see any on UBC stores)  
-* Using autoclaved soil and sterilized seeds, set up each of the 80 treatments in separate plant pots  
-  * Literature review suggests 1L pots is a good volume to use for each treatment  
+* Using autoclaved soil and sterilized seeds, set up each of the 200 replicates in separate plant pots  
+  * Literature review suggests 1L pots is a good volume to use for each treatment (shallower options may be more ideal)
+    *  
   * 10 seeds per pot  
     * Place the seeds so that they are evenly distributed throughout the pot, 1-2 cm deep in the soil  
   * Fill pot half way with sterilized matrix soil, then add inoculum as a mixture with water (or autoclaved field soil), then cover with more sterile matrix soil   
