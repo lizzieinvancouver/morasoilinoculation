@@ -35,6 +35,7 @@ Things to bring:
 
 * Sterilize seeds with a laundry bleach solution containing 2 parts bleach to 3 parts water (Wenny and Dumroese 1987\)
   * No notes in Lipson about bleach concentration, James 1987 (and other papers) suggests using 40% bleach to 60% distilled water
+    * Seed handling guide (Kolotelo 2001) suggests 10% bleach is good for cleaning seeds
   * Soak in bleach solution for 10 minutes with constant agitation  
     * Discard bleach solution after a single use  
   * Soak in water with constant agitation for 5 minutes to rinse off bleach to prevent damage to seeds  
@@ -61,7 +62,11 @@ Things to bring:
     * Place the seeds so that they are evenly distributed throughout the pot, 1-2 cm deep in the soil  
   * Fill pot half way with sterilized matrix soil, then add inoculum as a mixture with water (or autoclaved field soil), then cover with more sterile matrix soil   
   * 10% inoculation ratio means we should have about 90mL of inoculum in each soil pot and 900mL (or 0.9L) of sterile matrix soil  
-  * Germinate seeds according to ideal germination conditions   
+  * Germinate seeds according to ideal germination conditions (Kolotelo 2001)
+    * 20 degrees consistently
+    * Even moisture, moist but unsaturated media
+      * I suggest spraying each pot with a spray bottle each time germination is counted
+       
   * Change gloves between handling any non-sterile material to avoid spread of pathogens between samples 
 
 Things we need:
@@ -94,6 +99,8 @@ Things we need:
 
 Leadem, C. L. S. (1984). *Quick tests for tree seed viability* (No. 18, pp. viii+-45). Province of British
     Columbia, Ministry of Forests.
+    
+Kolotelo, D., Steenis, E. V., Peterson, M., Bennett, R., Trotter, D., & Dennis, J. (2001). Seed handling guidebook (pp. vi+-106).
 
 Wenny, D. L., & Dumroese, R. K. (1987). Germination of conifer seeds surface-sterilized with bleach.
     *Tree planters’ notes*, *38*(3), 18-21.
