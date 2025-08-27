@@ -99,8 +99,9 @@ Things we need:
 
 Leadem, C. L. S. (1984). *Quick tests for tree seed viability* (No. 18, pp. viii+-45). Province of British
     Columbia, Ministry of Forests.
-    
-Kolotelo, D., Steenis, E. V., Peterson, M., Bennett, R., Trotter, D., & Dennis, J. (2001). Seed handling guidebook (pp. vi+-106).
+King WL, Grandinette EM, Trase O, Rolon ML, Salis HM, Wood H, Bell TH.2024.Autoclaving is at least as effective as gamma irradiation for biotic
+    clearing and intentional microbial recolonization of soil. mSphere9:e00476-24.https://doi.org/10.1128/msphere.00476-24
+    Kolotelo, D., Steenis, E. V., Peterson, M., Bennett, R., Trotter, D., & Dennis, J. (2001). Seed handling guidebook (pp. vi+-106).
 
 Wenny, D. L., & Dumroese, R. K. (1987). Germination of conifer seeds surface-sterilized with bleach.
     *Tree planters’ notes*, *38*(3), 18-21.
