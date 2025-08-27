@@ -47,15 +47,17 @@ Things to bring:
   * Tetrazolium test can be used for western hemlock if we have it available  
     * Tetrazolium is much more expensive  
 * Use autoclave to sterilize both field soil and matrix potting soil   
-  * 25L bags of soil available at canadian tire for only a few $$, which would we need?   
+  * 25L bags of soil available at canadian tire for only a few $$, which would we need?
     * Could also get in touch with Dan at the field to see what he suggests  
   * Autoclave time slot will need to be booked (Nolan can take care of this, will decide on dates and times soon)  
-  * It should be possible to autoclave most of the soil in one go (2 hours maximum), but two timeslots should be booked in case agar plates show microbial growth  
+  * It should be possible to autoclave most of the soil in one go (2 hours maximum), but two timeslots should be booked in case agar plates show microbial growth
+  * Autoclaved at 121 degrees celsius for 40 minutes
+    * Plate results of initial autoclaving, reautoclave if necessary (if plates come pack positive)
   * After autoclaving, perform microbial assays using agar plates  
     * Perform two microbial platings for each of the 3 levels in the autoclave (6 plates per autoclave session)
     * Keep plates in a warm place, 2-3 days to show microbial activity
     * Contact Jenny Escano [mjescano@mail.ubc.ca](mailto:mjescano@mail.ubc.ca) for agar at $21.05 per litre which is enough for 50 plates (may be cheaper options available, didn’t see any on UBC stores)  
-* Using autoclaved soil and sterilized seeds, set up each of the 200 replicates in separate plant pots  
+* Using autoclaved soil and sterilized seeds, set up each of the 210 replicates in separate plant pots  
   * Literature review suggests 1L pots is a good volume to use for each treatment (shallower options may be more ideal)
     *  
   * 10 seeds per pot  
