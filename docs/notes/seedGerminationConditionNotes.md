@@ -1,59 +1,48 @@
-**MORA**
+This document outlines the steps that will be taken to ensure a smooth set up of the experiment, including all details related to the soil, the conditions in the growth chambers, and the seeds themselves
 
-Tsuga *heterophylla*: western Hemlock
+**Soil**  
+Check results of initial agar plates, if clean:
 
-- 100+ seeds available from [treeseeds.ca](http://treeseeds.ca) for $12   
-- 90 days cold stratification ([treeseeds.ca](http://treeseeds.ca))  
-- 3-4 weeks at 1-4 degrees (US Forest Service)  
-- 3-4 weeks at 1-4 degrees (UW)  
-- Sow 1-2 cm deep in soil  
-- Typically around 50% germination success, should order double or more the number of seeds required by the number of replicates
+- Run full autoclave batch of soil to be used in experiment   
+- Store all autoclaved soil in separate labeled bags
 
-Thuja *plicata*: western red cedar
+**Pots**
 
-- 100+ seeds available from [treeseeds.ca](http://treeseeds.ca) for $9  
-- 30 days cold stratification ([treeseeds.ca](http://treeseeds.ca))  
-- May germinate well without stratification (USFS)  
-- No stratification necessary (UW)  
-- Sow on soil surface  
-- Seed mortality is very high, likely want many more seeds than needed by the exact number of replicates
+- Place a couple pots in the autoclave when sterilizing soil to see if they melt (they shouldn’t)  
+- If they don’t melt, will run a batch of just pots to sterilize them rather than using alcohol
 
-Pseudotsuga *menziensii:* douglas fir
+**Chamber conditions**
 
-- 50 seeds available from [treeseeds.ca](http://treeseeds.ca) for $8  
-- No stratification necessary   
-- Longer stratification resulted in greater germination odds, with 25 degrees incubation temperature showing the highest germination (Allen 1960\)   
-- 28-45 days at 3 degrees is typical and effective stratification practice (UW)  
-- 1-2 weeks in well watered substrate for germination  
-- Germination rate between 70 and 90 % in controlled stratification conditions, double the number of replicates should be enough seeds
+- Sterilized with UV light prior to placing growth trays inside  
+- One chamber for each seed species (2 chambers total)  
+- Temperature at 30º celsius for the first 3 days, followed by 25º celsius for the rest of the germination period   
+  - This temperature works well for both PSME and TSHE (Bientjes 1954\)
 
-Seeds can also be purchased from the Ministry of Forests, Lands, Natural Resource Operations and Rural Development through the Seed Planning and Registry (SPAR) with an account and a BCeID (which I do not have). 
+PSME
 
-Based on USFS stratification recommendations, only TSHE may need cold stratification, and PSME would benefit from warm stratification. The included information from the University of Washington seems to corroborate that from USFS. 
+- Higher intensity light will promote faster and more complete germination
 
-**Swiss**
+TSHE
 
-Fagus *sylvatica:* European beech
+- Darkness (for the first 40 days at least) will promote faster and more complete germination
 
-- 19 seeds available for $8 USD (https://sheffields.com/seeds/Fagus/sylvatica)  
-- 90 days cold germination (or longer for better germination odds)  
-- Sow 1 cm deep in soil
+**Seeds**  
+**Cleaning**
 
-Acer *campestre*: Field maple
+- Use bleach instead of hydrogen peroxide since the latter can alter/promote germination in seeds  
+- Recommended sodium hypochlorite concentration of 1-5% for 2-10 minutes   
+- Should be done prior to stratification, if we do stratify  
+- Follow methods in Wenny and Dumroese 1987:  
+  - 5% sodium hypochlorite (about 2:3 bleach:water)  
+  - 10 minute soak with constant agitation  
+    - Different bleach for different seed species  
+  - Followed by 10 minute soak in tap water to rinse bleach off  
+  - Followed again by a 48 hour rinse in running tap water before stratification
 
-- 21 seeds available for $5 USD ([https://sheffields.com/seeds/Acer/campestre](https://sheffields.com/seeds/Acer/campestre))  
-- 30 day warm stratification followed by 120 days cold stratification  
-- Sow 0.5 cm deep
+**Works Cited**
 
-Sources:
+Allen, G. S. (1941). A standard germination test for Douglas fir seed. *The Forestry Chronicle*, *17*(2), 75-78.
 
-Allen, G. S. (1960). FACTORS AFFECTING THE VIABILITY AND GERMINATION BEHAVIOR OF CONIFEROUS SEED. IV. STRATIFICATION PERIOD AND INCUBATION TEMPERATURE, PSEUDOTSUGA MENZESII (MIRB.) FRANCO. *The Forestry Chronicle*, *36*(1), 18-29.
+Allen, G. S. (1941). LIGHT AND TEMPERATURE AS FACTORS IN THE GERMINATION OF THE SEED OF DOUGLAS FIR (PSEUDOTSUGA TAXIFOLIA (LAMB.) BRITT). *The Forestry Chronicle*, *17*(3), 99-109.
 
-https://sheffields.com/
-
-[https://treeseeds.ca/](https://treeseeds.ca/)
-
-[https://depts.washington.edu/propplnt/Plants/Thuja%20plicata.htm](https://depts.washington.edu/propplnt/Plants/Thuja%20plicata.htm)  
-[https://depts.washington.edu/propplnt/Plants/tsugahet.htm](https://depts.washington.edu/propplnt/Plants/tsugahet.htm)  
-[https://courses.washington.edu/esrm412/protocols/2021/PSME.pdf](https://courses.washington.edu/esrm412/protocols/2021/PSME.pdf)
-
+Bientjes, W. (1954). *Coniferous tree seed germination with particular reference to the effects of temperature, seed moisture and stratification on germination behaviour of western hemlock seed* (Doctoral dissertation, University of British Columbia).
