@@ -2,7 +2,7 @@
 
 **Vanderputten 1988:**
 
-- Used ratios of 1%, 15%, and 50% based on air dry weight
+- Used ratios of 1%, 15%, and 50% based on air dry weight of soil
 
 **Ma et al. 2018:**
 
