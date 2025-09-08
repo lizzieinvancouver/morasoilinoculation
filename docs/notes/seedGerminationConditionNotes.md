@@ -64,6 +64,8 @@ For Douglas fir (pdf page 39):
 - Total germination after 32 days was significantly higher for the alternating temperature treatments, but only 2% lower for the 9 hour photoperiod compared to the 7+2 hour photoperiod  
 - Germination was much lower for the 19º temperature treatments, but was 18% higher for the split 7+2 hour photoperiod treatment 
 
+
+**Sources Cited**
 - Allen, G. S. (1941a). A standard germination test for douglas fir seed. *The Forestry Chronicle*, *17*(2), 75–78. [https://doi.org/10.5558/tfc17075-2](https://doi.org/10.5558/tfc17075-2)  
 - Allen, G. S. (1941b). Light and temperature as factors in the germination of the seed of douglas fir (pseudotsuga taxifolia (lamb.) britt). *The Forestry Chronicle*, *17*(3), 99–109. [https://doi.org/10.5558/tfc17099-3](https://doi.org/10.5558/tfc17099-3)  
 - Bientjes, W. (1954). *Coniferous tree seed germination with particular reference to the effects of temperature, seed moisture and stratification on germination behaviour of western hemlock seed* \[University of British Columbia\]. [https://doi.org/10.14288/1.0106577](https://doi.org/10.14288/1.0106577)  
