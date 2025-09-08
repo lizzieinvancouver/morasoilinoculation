@@ -64,6 +64,12 @@ For Douglas fir (pdf page 39):
 - Total germination after 32 days was significantly higher for the alternating temperature treatments, but only 2% lower for the 9 hour photoperiod compared to the 7+2 hour photoperiod  
 - Germination was much lower for the 19º temperature treatments, but was 18% higher for the split 7+2 hour photoperiod treatment 
 
+**USDA:**
+Western Hemlock
+- Stratification for 3-4 weeks at 1-4º improves germination and germination rate
+- Optimum germination temperature around 20º
+   - Each 5º drop in temperature, germination time is doubled
+
 
 **Sources Cited**
 - Allen, G. S. (1941a). A standard germination test for douglas fir seed. *The Forestry Chronicle*, *17*(2), 75–78. [https://doi.org/10.5558/tfc17075-2](https://doi.org/10.5558/tfc17075-2)  
@@ -73,4 +79,5 @@ For Douglas fir (pdf page 39):
 - Edwards, D. G. W., & Olsen, P. E. (1973). A Photoperiod Response in Germination of Western Hemlock Seeds. *Canadian Journal of Forest Research*, *3*(1), 146–148. [https://doi.org/10.1139/x73-020](https://doi.org/10.1139/x73-020)  
 - Johnson, L. R. C., & Irgens-Moller, H. (1964). Effect of Photoperiod and Light Quality on Germination of Douglas-Fir Seed. *Forest Science*, *10*(2), 200–205. [https://doi.org/10.1093/forestscience/10.2.200](https://doi.org/10.1093/forestscience/10.2.200)  
 - Ma, H., Pineda, A., van der Wurff, A. W. G., & Bezemer, T. M. (2018). Carry-over effects of soil inoculation on plant growth and health under sequential exposure to soil-borne diseases. *Plant and Soil*, *433*(1), 257–270. [https://doi.org/10.1007/s11104-018-3837-9](https://doi.org/10.1007/s11104-018-3837-9)  
-- van der Putten, W. H., van Dijk, C., & Troelstra, S. R. (1988). Biotic soil factors affecting the growth and development of Ammophila arenaria. *Oecologia*, *76*(2), 313–320. [https://doi.org/10.1007/BF00379970](https://doi.org/10.1007/BF00379970)  
+- van der Putten, W. H., van Dijk, C., & Troelstra, S. R. (1988). Biotic soil factors affecting the growth and development of Ammophila arenaria. *Oecologia*, *76*(2), 313–320. [https://doi.org/10.1007/BF00379970](https://doi.org/10.1007/BF00379970)
+- Western Hemlock | Silvics of North America. (n.d.). Retrieved September 8, 2025, from https://research.fs.usda.gov/silvics/western-hemlock
