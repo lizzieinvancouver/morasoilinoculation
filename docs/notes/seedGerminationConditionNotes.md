@@ -69,6 +69,14 @@ Western Hemlock
 - Stratification for 3-4 weeks at 1-4º improves germination and germination rate
 - Optimum germination temperature around 20º
    - Each 5º drop in temperature, germination time is doubled
+ 
+**Houskova and Martinik 2015:**
+Douglas Fir
+- Counted seeds as germinated when the radicle was as long as the seed body
+- For all seed lots tested (including one from Washington, USA), stratification slightly increased germination capacity compared to unstratified seeds
+- No statistical difference observed between 21 and 49 day stratification treatments
+- Stratification (of both 21 and 49 days) significantly increased germination rate compared to unstratified seed, although little difference was observed between 21 and 49 day stratification treatments
+
 
 
 **Sources Cited**
@@ -76,7 +84,8 @@ Western Hemlock
 - Allen, G. S. (1941b). Light and temperature as factors in the germination of the seed of douglas fir (pseudotsuga taxifolia (lamb.) britt). *The Forestry Chronicle*, *17*(3), 99–109. [https://doi.org/10.5558/tfc17099-3](https://doi.org/10.5558/tfc17099-3)  
 - Bientjes, W. (1954). *Coniferous tree seed germination with particular reference to the effects of temperature, seed moisture and stratification on germination behaviour of western hemlock seed* \[University of British Columbia\]. [https://doi.org/10.14288/1.0106577](https://doi.org/10.14288/1.0106577)  
 - Edwards, D. G. W. (1973). Effects of Stratification on Western Hemlock Germination. *Canadian Journal of Forest Research*, *3*(4), 522–527. [https://doi.org/10.1139/x73-077](https://doi.org/10.1139/x73-077)  
-- Edwards, D. G. W., & Olsen, P. E. (1973). A Photoperiod Response in Germination of Western Hemlock Seeds. *Canadian Journal of Forest Research*, *3*(1), 146–148. [https://doi.org/10.1139/x73-020](https://doi.org/10.1139/x73-020)  
+- Edwards, D. G. W., & Olsen, P. E. (1973). A Photoperiod Response in Germination of Western Hemlock Seeds. *Canadian Journal of Forest Research*, *3*(1), 146–148. [https://doi.org/10.1139/x73-020](https://doi.org/10.1139/x73-020)
+- Houšková, K., & Martiník, A. (2015). Does prolonged stratification of Douglas fir influence the yield of seedlings?. Journal of Forest Science, 61, 2015 (6): 268–273. https://https://doi.org/10.17221/7/2015-JFS.
 - Johnson, L. R. C., & Irgens-Moller, H. (1964). Effect of Photoperiod and Light Quality on Germination of Douglas-Fir Seed. *Forest Science*, *10*(2), 200–205. [https://doi.org/10.1093/forestscience/10.2.200](https://doi.org/10.1093/forestscience/10.2.200)  
 - Ma, H., Pineda, A., van der Wurff, A. W. G., & Bezemer, T. M. (2018). Carry-over effects of soil inoculation on plant growth and health under sequential exposure to soil-borne diseases. *Plant and Soil*, *433*(1), 257–270. [https://doi.org/10.1007/s11104-018-3837-9](https://doi.org/10.1007/s11104-018-3837-9)  
 - van der Putten, W. H., van Dijk, C., & Troelstra, S. R. (1988). Biotic soil factors affecting the growth and development of Ammophila arenaria. *Oecologia*, *76*(2), 313–320. [https://doi.org/10.1007/BF00379970](https://doi.org/10.1007/BF00379970)
