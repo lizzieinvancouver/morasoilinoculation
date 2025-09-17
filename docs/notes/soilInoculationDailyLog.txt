@@ -21,6 +21,108 @@ Arrived at field site at 7AM
 - Soils collected from areas of high species density and low presence of other species (5 bags of soil from each plot, 3 plots per species)
 - All bags of the same soil species will be combined, but 5 bags (each one 400mL approximately of soil) were collected from each plot for a total of 15 bags per soil species
 
+-------------- August 14, 2025 -----------------
+Mao, Nolan
+Purchased 4 25kg bags of potting soil from Home Depot
+Confirmed an experimental design of 15 replicates for each of 12 treatments in addition to 5 replicates of the 25% inoculum treatment
+
+-------------- August 19, 2025 -----------------
+Nolan
+Met with Jenny Escano from microbio 
+Suggested we use TSA agar as it is best suited for all types of pathogens and promoting a fast growth 
+Agar ordered from here takes 2 weeks to prepare
+Didn’t fit in our timeline, but only $21 for about 50 plates, so could be a good option if the study is run again 
+
+------------- August 21, 2025 -----------------
+Mao
+Ordered 240 shallow growth trays to germinate the seeds in, as well as 30 big trays to place the smaller pots in for easy manipulation (link:https://indoorfarmer.ca/products/bootstrap-farmer-5x5-microgreen-trays-1-3-tall-no-holes?variant=40598039101505)
+
+-------------- August 22, 2025 ----------------
+Nolan
+Met with Rolando Descalzo from forestry to learn how to plate agar through sterile methods
+Prepared and plated 40 agar plates to be used to test our soils
+
+------------- August 25, 2025 ------------------
+Nolan, Mao
+Dan Buonaito provided advice on a pre-test viability test for our seed. His response is below:
+If you are using seeds you purchased from a nursery or seed lot, they
+probably already tested the seed and provide a "% purity" measure, which
+I think is just a measure of the expected percent viable seeds. If you
+can find that, that is probably good enough for a "pre-test"
+I am not sure if this works for conifers but some sources recommend a
+"float test" where you float seeds in water, and any seeds that sink are
+viable (have a filled embryo) and any floaters are bad and shouldn't be
+used. Any time I have tried this all my seeds floated, so this
+probably only works for certain kinds of seeds.
+I focused more on dealing with seeds that didn't germinate by the end
+of the studies. For those I did a "crush test" where I gently pressed on
+the seeds and for any that ruptured or seemed moldy or goopy or too
+light or weird, I didn't include those in my calculations of germination
+percentages. I supposed you could also dissect those seeds to check for
+embryos.
+If you want to be super fancy, I know many seeds labs use
+tetrozolium staining to check for viability, but I think you need to
+have a bit of a trained eye to interpret the stains :
+https://seedlab.oregonstate.edu/sites/seedlab.oregonstate.edu/files/value-tz-test-2004.pdf
+There is a chapter in the Baskin and Baskin seeds book about "how to
+do a germination experiment". I would say if you roughly follow that and
+cite it, your approach is defensible.
+TLDR: my guess is that it would be fine to do something very basic
+before starting (i.e., rely on reported purity, and if you can't find
+that, do a float test or randomly dissect a small number of seeds to
+check for embryos). I would definitely evaluate the ungerminated seeds
+at the end of the experiment to exclude the ones that aren't viable.
+
+
+-------------- August 27, 2025 ---------------
+Nolan
+Initial autoclave batch was run on 3 different soil types at 3 different levels in the autoclave
+This was done as a preventative measure to ensure autoclave effectiveness
+
+Autoclave settings: 50 minutes at 121º C
+Pre-autoclave weights:
+355g of PSME soil on the top level of autoclave
+333g of TSHE soil on the middle level of autoclave
+500g of matrix soil on the bottom level of the autoclave
+
+Soil solutions were also prepared using equal parts autoclaved soil and water to be plated on agar to check for microbial activity
+
+------------- August 28, 2025 -----------------
+Mao 
+Soil solutions prepared after autoclaving were plated on agar using sterile glass beads and a bio hood, then placed in an incubator to allow microbes to develop
+
+-------------- September 2, 2025 --------------
+Mao
+Agar plates were checked for microbial activity, but showed no signs of growth 
+Indicates that the next autoclave batches are safe to be run
+
+Nolan
+Began filling disposable autoclave bags with approx. 700 grams of matrix soil each
+Filled around 20 bags today, but was unable to autoclave due to scheduling issues
+
+-------------- September 3, 2025 ---------------
+Nolan
+Ran 2 batches of the autoclave, containing 12 bags each
+50 minutes at 121ºC
+
+Meanwhile, sanitized seeds according to Wenny and Dumroese methods
+2:3 ratio of bleach to water with 5% sodium hypochlorite NoName brand laundry bleach
+Final sodium hypochlorite concentration was 2%
+
+Seeds were soaked in this solution for 10 minutes with constant gentle agitation to ensure complete sanitation of the seed surfaces
+Following this 10 minute soak, seeds were thoroughly rinsed using a strainer and clear tap water a total of 3 times 
+The seeds were then soaked in clear tap water for approx. 90 minutes, then rinsed twice more, patted dry with filter paper, then placed in rolled filter papers in the cold room at 5ºC
+
+Mesh bags would be very useful for this step, as they would allow the seeds to be rinsed without the risk of losing any in the sink and so that they don’t need to be transferred between the rinsing container and the strainer
+
+------------- September 4, 2025 ---------------
+Nolan
+Prepared the final autoclave bags for autoclaving, including bags of homogenized soil collected from TSHE, PSME, and THPL plots
+Labelled growth trays with the 18 treatment labels (2 big trays for each of the 12 normal treatments, and only 1 tray for each of the 6 25% inoculum treatments)
+
+-------------- September 5, 2025 --------------
+Final autoclave batch was run for 50 minutes at 121ºC
+
 -------------- September 10, 2025 ---------------
 Started official cold stratification
 Mao, Nolan, Tess
@@ -32,5 +134,10 @@ We also watered the trays and decided to check on them later in the week see how
 -------------- September 16, 2025 ---------------
 Decided on water schedule
 Mao
+
+-------------- September 17, 2025 ---------------
+Nolan
+Watered growth trays with 3L total of deionized water
+Distributed evenly over all trays
 
 We decided that the trays need to be watered once a week until the end of the cold stratification.
