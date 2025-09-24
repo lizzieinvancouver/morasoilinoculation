@@ -141,3 +141,35 @@ Watered growth trays with 3L total of deionized water
 Distributed evenly over all trays
 
 We decided that the trays need to be watered once a week until the end of the cold stratification.
+
+--------------- September 24, 2025 --------------
+Nolan
+Trays were watered with 3.5L 
+
+Soils were grouped into the following groups:
+Inoculum : Soil Species : Seed Species
+
+Group 1:
+0 THPL TSHE
+0 PSME TSHE
+0 TSHE PSME
+0 PSME PSME
+10 THPL TSHE
+
+Group 2: 
+25 PSME TSHE
+25 THPL TSHE
+0 THPL PSME
+10 PSME TSHE
+10 THPL PSME
+10 PSME PSME
+
+Group 3:
+10 TSHE TSHE 
+25 TSHE PSME 
+25 TSHE TSHE
+10 TSHE PSME
+25 THPL PSME
+0 TSHE TSHE 
+25 PSME PSME 
+
