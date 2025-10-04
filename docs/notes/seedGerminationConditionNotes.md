@@ -90,3 +90,6 @@ Douglas Fir
 - Ma, H., Pineda, A., van der Wurff, A. W. G., & Bezemer, T. M. (2018). Carry-over effects of soil inoculation on plant growth and health under sequential exposure to soil-borne diseases. *Plant and Soil*, *433*(1), 257–270. [https://doi.org/10.1007/s11104-018-3837-9](https://doi.org/10.1007/s11104-018-3837-9)  
 - van der Putten, W. H., van Dijk, C., & Troelstra, S. R. (1988). Biotic soil factors affecting the growth and development of Ammophila arenaria. *Oecologia*, *76*(2), 313–320. [https://doi.org/10.1007/BF00379970](https://doi.org/10.1007/BF00379970)
 - Western Hemlock | Silvics of North America. (n.d.). Retrieved September 8, 2025, from https://research.fs.usda.gov/silvics/western-hemlock
+
+Source:
+- https://npn.rngr.net/npn/propagation/protocols/renderNPNProtocolListing?formSubmitted=1&getNPNScientificTitle=&getNPNOrganizationName=&SearchableText=&getNPNProductType=&getNPNCompanyName=&b_start:int=90&getNPNFamilyScientific=Pinaceae&getNPNStateName=
