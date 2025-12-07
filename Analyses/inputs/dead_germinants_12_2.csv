@@ -1,0 +1,211 @@
+﻿soil_species,seed_species,inoculated_%,pot,notes,296,300,303,307,310,314,317,321,324,328,331,335
+TSHE,TSHE,10,1,,,,,,,,,1,1,1,1,1
+TSHE,TSHE,0,1,,,,,,,,,,,,,
+TSHE,PSME,10,1,,,,,,,,,1,1,1,1,1
+TSHE,PSME,0,1,,,,,,,,,,,,,
+PSME,TSHE,10,1,,,,,,,,,,,,,
+PSME,TSHE,0,1,,,,,,,,,1,1,1,1,1
+PSME,PSME,10,1,,,,,,,,,,1,1,1,1
+PSME,PSME,0,1,doy296: mold on soil,,,,,,,,,,,,
+THPL,TSHE,10,1," doy 296 germinant invalid, herbaceous species",,,,,,,,,,,1,1
+THPL,TSHE,0,1,doy296: mold on soil,,,,,,,1,1,2,2,2,1
+THPL,PSME,10,1,,,,,,,,,,,,,
+THPL,PSME,0,1,"doy296: mold on soil; doy303: no obvious signs of mold on soil; doy328: previously dead germinant is still quite green, so marking as alive this week",,,,1,1,1,1,1,1,,,
+TSHE,TSHE,10,2,,,,,,,,,,,,,
+TSHE,TSHE,0,2,,,,,,,,,1,1,1,1,1
+TSHE,PSME,10,2,,,,,,,,,,,,,
+TSHE,PSME,0,2,,,,,,,,,,,,,
+PSME,TSHE,10,2,,,,,,,,,,,2,2,2
+PSME,TSHE,0,2,,,,,,,,,,,,,
+PSME,PSME,10,2,,,,,,,,,,,,,
+PSME,PSME,0,2,doy296: mold on soil,,,,,,,,,,,,
+THPL,TSHE,10,2,,,,,,,,,,,,,
+THPL,TSHE,0,2,doy296: mold on soil,,,,,,,,,,,,
+THPL,PSME,10,2,,,,,,,,,,,,,
+THPL,PSME,0,2,doy296: mold on soil; doy303: no obvious signs of mold on soil,,,,2,2,2,2,2,2,1,1,1
+TSHE,TSHE,10,3,,,,,,,,,,,,,
+TSHE,TSHE,0,3,,,,,,,,,1,1,1,1,1
+TSHE,PSME,10,3,,,,,,,,,,,,,
+TSHE,PSME,0,3,doy296: mold on soil,,,,,,,,,,,,
+PSME,TSHE,10,3,,,,,,,,,1,1,1,1,1
+PSME,TSHE,0,3,,,,,,,,,,,,,
+PSME,PSME,10,3,,,,,,,,,,,,,
+PSME,PSME,0,3,doy296: mold on soil; doy321: mold on some germinants,,,,,,,,,,2,2,2
+THPL,TSHE,10,3,,,,,,,,,,,,,
+THPL,TSHE,0,3,doy296: mold on soil,,,,,,,,2,2,1,1,1
+THPL,PSME,10,3,,,,,,,,,,,,,
+THPL,PSME,0,3,doy296: mold on soil; doy303: no obvious signs of mold on soil,,,,1,1,1,,1,1,1,1,1
+TSHE,TSHE,10,4,,,,,,,,,,1,1,1,1
+TSHE,TSHE,0,4,,,,,,,1,1,2,2,2,2,2
+TSHE,PSME,10,4,,,,,,,,,,,,,
+TSHE,PSME,0,4,doy296: mold on soil,,,,,,,,,,,,
+PSME,TSHE,10,4,,,,,,,,,,1,1,1,1
+PSME,TSHE,0,4,,,,,,,,,,,,,
+PSME,PSME,10,4,"doy307: one germinant looking unhealthy, one dead",,,,1,1,1,1,1,1,1,1,1
+PSME,PSME,0,4,doy296: mold on soil,,,,,,,,,,,,
+THPL,TSHE,10,4,,,,,,,,,,,,,
+THPL,TSHE,0,4,doy296: less mold on soil,,,,,,,1,2,2,2,2,2
+THPL,PSME,10,4,,,,,,,,,,,,,
+THPL,PSME,0,4,doy296: mold on soil; doy303: no obvious signs of mold on soil,,,,1,1,1,1,2,2,2,2,1
+TSHE,TSHE,10,5,,,,,,,,,,,,1,1
+TSHE,TSHE,0,5,,,,,,,,,,,,,
+TSHE,PSME,10,5,,,,,,,,,,,,,
+TSHE,PSME,0,5,,,,,,,,,,,,,
+PSME,TSHE,10,5,,,,,,,,,,,,,
+PSME,TSHE,0,5,,,,,,,,,,,,,
+PSME,PSME,10,5,,,,,,,,,,,,,
+PSME,PSME,0,5,doy296: mold on soil,,,,,,,,,,,,
+THPL,TSHE,10,5,,,,,,,,,,,,,
+THPL,TSHE,0,5,doy296: less mold on soil,,,,,,,,,,,,
+THPL,PSME,10,5,,,,,,,,,,,,,
+THPL,PSME,0,5,"doy296: mold on soil; doy303: no obvious signs of mold on soil; doy321: previous count invalid, germinants not dead; doy335: previously thought dead germinant seems to be alive, just sideways",,,,2,2,2,2,1,1,1,1,0
+TSHE,TSHE,10,6,doy335: one of germinants on 331 was not focal species,,,,,,,,,,,,
+TSHE,TSHE,0,6,,,,,,,1,,,,,,
+TSHE,PSME,10,6,,,,,,,,,,,,,
+TSHE,PSME,0,6,,,,,,,,,,,,,
+PSME,TSHE,10,6,,,,,,,,,1,1,1,1,1
+PSME,TSHE,0,6,,,,,,,,,,,,,
+PSME,PSME,10,6,,,,,,,,,,,,,
+PSME,PSME,0,6,doy296: mold on soil,,,,,,,,,,,,
+THPL,TSHE,10,6,,,,,,,,,,,,,
+THPL,TSHE,0,6,"doy296: mold on soil; doy328: could not find dead germinants, but they were assumed",,,,,,,,1,2,,,
+THPL,PSME,10,6,,,,,,,,,,,,,
+THPL,PSME,0,6,doy296: mold on soil; doy303: no obvious signs of mold on soil,,,,,,,,,,,,
+TSHE,TSHE,10,7,,,,,,,,,,,,,
+TSHE,TSHE,0,7,,,,,,,,1,1,1,1,1,1
+TSHE,PSME,10,7,,,,,,,,,,,,,
+TSHE,PSME,0,7,doy296: mold on soil,,,,,,,,,,,,
+PSME,TSHE,10,7,,,,,,,,,1,1,1,1,1
+PSME,TSHE,0,7,,,,,,,,,,,,,
+PSME,PSME,10,7,doy307: one germinant looking unhealthy,,,,,,,,,,,,
+PSME,PSME,0,7,doy296: mold on soil; doy317: one germinant had mold on seed part,,,,,,,,,1,1,1,1
+THPL,TSHE,10,7,"doy328: could not find dead germinant, but assumed its there since all 5 look healthy",,,,,,,,4,4,4,4,4
+THPL,TSHE,0,7,doy296: mold on soil,,,,,,,,1,1,1,1,1
+THPL,PSME,10,7,,,,,,,,,,,1,1,1
+THPL,PSME,0,7,doy296: mold on soil; doy303: no obvious signs of mold on soil,,,,,,,,,,,,
+TSHE,TSHE,10,8,doy321: germinant covered in mold,,,,,,,,1,1,2,2,2
+TSHE,TSHE,0,8,,,,,,,,,,,,,
+TSHE,PSME,10,8,,,,,,,,,,,,,
+TSHE,PSME,0,8,,,,,,,,,,,,,
+PSME,TSHE,10,8,,,,,,,,,,1,1,1,1
+PSME,TSHE,0,8,,,,,,,,,,,,,
+PSME,PSME,10,8,,,,,,,,,,,,,
+PSME,PSME,0,8,doy296: mold on soil,,,,,,,,,,,,
+THPL,TSHE,10,8,,,,,,,,,,,,,
+THPL,TSHE,0,8,doy296: mold on soil,,,,,,,,,2,2,,
+THPL,PSME,10,8,doy307: herbaceous germinant found,,,,,,,,,,,,
+THPL,PSME,0,8,doy296: mold on soil; doy303: no obvious signs of mold on soil,,,,,,,,1,1,1,,
+TSHE,TSHE,10,9,,,,,,,,,,,,,
+TSHE,TSHE,0,9,,,,,,,,,,,,,
+TSHE,PSME,10,9,,,,,,,,,,,,,
+TSHE,PSME,0,9,,,,,,,,,,,,,
+PSME,TSHE,10,9,,,,,,,,,,,1,1,2
+PSME,TSHE,0,9,,,,,,,,,,,,,
+PSME,PSME,10,9,,,,,,,,,,,,,
+PSME,PSME,0,9,doy296: mold on soil,,,,,,,,,,,1,1
+THPL,TSHE,10,9,,,,,,,,,,,1,1,1
+THPL,TSHE,0,9,doy296: mold on soil,,,,,,,,,,,,
+THPL,PSME,10,9,,,,,,,,,,,,,
+THPL,PSME,0,9,"doy296: mold on soil; doy303: no obvious signs of mold on soil; doy310: germinant not dead but unhealthy; doy328: dead germinant appears to still be alive, very green",,,,1,,,1,1,1,,,
+TSHE,TSHE,10,10,"doy300: doy 296 germinant invalid, herbaceous species",,,,,,,,,,,,
+TSHE,TSHE,0,10,,,,,,,,,,,,,
+TSHE,PSME,10,10,,,,,,,,,,2,2,2,2
+TSHE,PSME,0,10,,,,,,,,,,,,,
+PSME,TSHE,10,10,"doy328: could not find dead germinant, but assumed its there since all 3 look healthy",,,,,,,,1,1,1,1,1
+PSME,TSHE,0,10,,,,,,,,,,,,,
+PSME,PSME,10,10,,,,,,,,,,,,,
+PSME,PSME,0,10,,,,,,,,,,,,,
+THPL,TSHE,10,10,,,,,,,,,,,,,
+THPL,TSHE,0,10,doy296: mold on soil,,,,,,,,,,,,
+THPL,PSME,10,10,,,,,,,,,,,,,
+THPL,PSME,0,10,doy296: mold on soil; doy303: no obvious signs of mold on soil,,,,,,,,,,,,
+TSHE,TSHE,10,11,,,,,,,,,,,,,
+TSHE,TSHE,0,11,doy310: one germinant alive but uprooted,,,,,,,1,1,1,1,1,1
+TSHE,PSME,10,11,"doy317: some germinants showing browning on leaves; doy321: browning worse, one seed has green mold",,,,,,,1,3,3,4,4,5
+TSHE,PSME,0,11,,,,,,,,,,,,,
+PSME,TSHE,10,11,,,,,,,,,,,,,1
+PSME,TSHE,0,11,,,,,,,,,,,,,
+PSME,PSME,10,11,,,,,,,1,,,,,,
+PSME,PSME,0,11,doy296: mold on soil,,,,,,,,,,,,
+THPL,TSHE,10,11,,,,,,,,,,,,,
+THPL,TSHE,0,11,doy296: mold on soil,,,,,,,,,,,,
+THPL,PSME,10,11,,,,,,,,,,,,,
+THPL,PSME,0,11,doy296: mold on soil; doy303: no obvious signs of mold on soil,,,,,,,,,,,,
+TSHE,TSHE,10,12,,,,,,,,,,,,,
+TSHE,TSHE,0,12,,,,,,,,,,,,,
+TSHE,PSME,10,12,,,,,,,,,,,,,
+TSHE,PSME,0,12,,,,,,,,,,,,,
+PSME,TSHE,10,12,,,,,,,,,,,,,
+PSME,TSHE,0,12,,,,,,,,,,,,,
+PSME,PSME,10,12,"doy307: one germinant looking unhealthy, long and not opened; doy310: long germinant still alive but uprooted",,,,,,1,1,1,1,1,1,1
+PSME,PSME,0,12,doy296: mold on soil,,,,,,,,2,2,2,2,2
+THPL,TSHE,10,12,,,,,,,,,,,,,
+THPL,TSHE,0,12,doy296: less mold on soil,,,,,,,,,,,,
+THPL,PSME,10,12,,,,,,,,,,,,,
+THPL,PSME,0,12,doy296: mold on soil; doy303: no obvious signs of mold on soil,,,,,,,1,1,1,1,,
+TSHE,TSHE,10,13,,,,,,,,,,,,1,1
+TSHE,TSHE,0,13,,,,,,,,,,,,,
+TSHE,PSME,10,13,,,,,,,,,,,,,
+TSHE,PSME,0,13,doy296: mold on soil,,,,,,,,,1,1,1,1
+PSME,TSHE,10,13,,,,,,,,,,,,,
+PSME,TSHE,0,13,,,,,,,,,,,,,
+PSME,PSME,10,13,,,,,,,,,,,,,
+PSME,PSME,0,13,doy296: mold on soil,,,,,,1,1,1,1,1,1,1
+THPL,TSHE,10,13,,,,,,,,,,,,,
+THPL,TSHE,0,13,doy296: mold on soil,,,,,,,,,,,,
+THPL,PSME,10,13,,,,,,,,,,,,,
+THPL,PSME,0,13,doy296: mold on soil; doy303: no obvious signs of mold on soil,,,,,,,,,,,,
+TSHE,TSHE,10,14,,,,,,,,,,,,,
+TSHE,TSHE,0,14,,,,,,,,,,,,,
+TSHE,PSME,10,14,,,,,,,,1,1,1,1,1,1
+TSHE,PSME,0,14,,,,,,,,,,,,,
+PSME,TSHE,10,14,,,,,,,,,,,,,
+PSME,TSHE,0,14,,,,,,,,,,,,,
+PSME,PSME,10,14,,,,,,,,,,,,,
+PSME,PSME,0,14,doy296: mold on soil,,,,,,,,,,,1,1
+THPL,TSHE,10,14,,,,,,,,,,,,,
+THPL,TSHE,0,14,doy296: mold on soil,,,,,,,,1,1,,,
+THPL,PSME,10,14,,,,,,,,,,,,,
+THPL,PSME,0,14,,,,,,,,,,,,,
+TSHE,TSHE,10,15,,,,,,,,,,,,,1
+TSHE,TSHE,0,15,,,,,,,,,,,,,
+TSHE,PSME,10,15,,,,,,,,,,,,,
+TSHE,PSME,0,15,,,,,,,,,,,,,
+PSME,TSHE,10,15,,,,,,,,,,,,,
+PSME,TSHE,0,15,,,,,,,,,,,,,
+PSME,PSME,10,15,,,,,,,,,,,,,
+PSME,PSME,0,15,doy296: mold on soil,,,,,,,,,,,,
+THPL,TSHE,10,15,,,,,,,,,,,,,
+THPL,TSHE,0,15,doy296: mold on soil,,,,,,,,,,,,
+THPL,PSME,10,15,,,,,,,,,,,,,
+THPL,PSME,0,15,,,,,,,,,,,,,
+TSHE,TSHE ,25,1,doy328: dead germinants very hard to see,,,,,,,,,,2,2,2
+PSME,TSHE,25,1,,,,,,,,,,,,,
+TSHE,PSME,25,1,,,,,,,,,,,,,
+PSME,PSME,25,1,,,,,,,,,,,,,
+THPL,TSHE,25,1,,,,,,,,,,,,,
+THPL,PSME,25,1,,,,,,,,,,,,,
+TSHE,TSHE ,25,2,,,,,,,,,2,2,2,2,2
+PSME,TSHE,25,2,,,,,,,,,,,,,1
+TSHE,PSME,25,2,,,,,,,,,,,,,
+PSME,PSME,25,2,,,,,,,,,,,,,
+THPL,TSHE,25,2,,,,,,,,,1,1,1,1,1
+THPL,PSME,25,2,,,,,,,,,,,,,
+TSHE,TSHE ,25,3,,,,,,,,,,1,1,1,1
+PSME,TSHE,25,3,,,,,,,,,,1,1,1,2
+TSHE,PSME,25,3,,,,,,,,,,,1,1,1
+PSME,PSME,25,3,,,,,,,,,,,,,
+THPL,TSHE,25,3,,,,,,,,,,,,,
+THPL,PSME,25,3,,,,,,,,,,,,,
+TSHE,TSHE ,25,4,,,,,,,,,,,,,1
+PSME,TSHE,25,4,,,,,,,,1,0,,,,1
+TSHE,PSME,25,4,,,,,,,,,,,,,
+PSME,PSME,25,4,,,,,,,,,,,,,
+THPL,TSHE,25,4,,,,,,,,1,1,1,1,1,1
+THPL,PSME,25,4,,,,,,,,,,,,,
+TSHE,TSHE ,25,5,,,,,,,,,,,,,
+PSME,TSHE,25,5,,,,,,,,,,,,1,1
+TSHE,PSME,25,5,,,,,,,,,,,,,
+PSME,PSME,25,5,,,,,,,,,,1,1,1,1
+THPL,TSHE,25,5,,,,,,,,,,,,,
+THPL,PSME,25,5,,,,,,,,,,,,,
