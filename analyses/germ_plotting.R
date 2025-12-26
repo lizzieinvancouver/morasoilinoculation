@@ -11,8 +11,8 @@ options(stringsAsFactors=FALSE)
 library(ggplot2)
 library(reshape)
 
-
 # set wd
+# Update to include yours with ifelse
 setwd("/Users/lizzie/Documents/git/projects/grephon/soilinoculation/analyses/")
 
 # get the data!
@@ -36,4 +36,7 @@ quartz()
 ggplot(alivelong, aes(x=as.numeric(doy), y=germinants, color=inoculated)) +
 	geom_point() + 
 	facet_grid(seed_species~soil_species)
-# Hmm, this looks like a good start, but it would be better if we summarized the data by inoluction level using ggplot stats etc.
+# Hmm, this looks like a good start, but ...
+	# it would be better if we summarized the data by inoluction level using ggplot stats etc.
+	# would be great to work on that next if someone has time!
+	# and then we could do it for dead also. 
