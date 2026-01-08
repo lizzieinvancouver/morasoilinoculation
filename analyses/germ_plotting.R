@@ -29,19 +29,32 @@ setwd(
 
 # get the data!
 # should be INPUT (not inputs)
-aliveraw <- read.csv('inputs/alive_germinants_12_2.csv')
-alive <- aliveraw
-alive[is.na(alive)] <- 0 #  This works, all empty cells mean no germinants (of any kind) observed
 
-dead <- read.csv('inputs/dead_germinants_12_2.csv')
+# First, bring in full, most recent dataset (will talk to Mao about lab protocols for doing this)
+seedsraw <- read.csv('inputs/germination_data_01_02.csv') # Full data set with alive and dead, from Jan. 2
+seeds <- seedsraw
+seeds[is.na(seeds)] <- 0 #  This works, all empty cells mean no germinants (of any kind) observed
+
+# filter out all columns containing dead data
+aliveraw <- seeds[, !grepl("dead", names(seeds))]
+alive <- aliveraw
+
+# filter out all columns containing alive data
+deadraw <- seeds[, !grepl("alive", names(seeds))]
+dead <- deadraw
+
 
 # reshaping
 library(reshape)
 alivelong <-  melt(alive, id.var=c("soil_species", "seed_species", "inoculated_.", "pot", "notes"))
 names(alivelong) <- c("soil_species", "seed_species", "inoculated", "pot", "notes", "doy", "germinants")
 
+deadlong <- melt(dead, id.var=c("soil_species", "seed_species", "inoculated_.", "pot", "notes"))
+names(deadlong) <- c("soil_species", "seed_species", "inoculated", "pot", "notes", "doy", "germinants")
+
 # clean up the variable 
 alivelong$doy <- substr(alivelong$doy, 2, 4)
+deadlong$doy <- substr(deadlong$doy, 2, 4)
 unique(alivelong$doy)
 
 quartz()
@@ -74,10 +87,22 @@ ggplot(alivelong,
   ) + 
   facet_grid(seed_species ~ soil_species)
   
+
+##### Adding to the above but trying to start with the full data set ######
+###### January 2, 2025, by Nolan ######
+
+ggplot(deadlong,
+       aes(x = as.numeric(doy),
+           y = germinants,
+           color = inoculated,
+           group = inoculated)) +
   
-
-
-alive_10 <- alivelong[alivelong$inoculated == 10,]
-alive_sterile <- alivelong[alivelong$inoculated == 0,]
-alive_25 <- alivelong[alivelong$inoculated == 25,]
+  stat_summary(fun = mean, geom = "line") + 
+  
+  stat_summary(
+    fun.data = mean_se,
+    geom = "errorbar",
+    width = 1
+  ) + 
+  facet_grid(seed_species ~ soil_species)
 
