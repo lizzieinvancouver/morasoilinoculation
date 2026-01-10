@@ -16,13 +16,16 @@ library(reshape)
 
 user <- Sys.info()[["user"]]
 
-setwd(
+ifelse(
+  user == "lizzie",
+  "/Users/lizzie/Documents/git/projects/grephon/soilinoculation/analyses/",
   ifelse(
-    user == "lizzie",
-    "/Users/lizzie/Documents/git/projects/grephon/soilinoculation/analyses/",
+    user == "nolanmeier",
+    "/Users/nolanmeier/git/morasoilinoculation/analyses",
     ifelse(
-      user == "nolanmeier",
-      "/Users/nolanmeier/git/morasoilinoculation/analyses"
+      user == "Xiaomao", 
+      "C:/PhD/Project/morasoilinoculation/analyses",
+      NA
     )
   )
 )
