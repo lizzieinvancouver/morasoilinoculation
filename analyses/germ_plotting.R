@@ -75,37 +75,47 @@ head(alivelong)
 
 # summarize stats by grouping by inoculation level
 # plot as lines
-ggplot(alivelong,
+aliveplot <- ggplot(alivelong,
        aes(x = as.numeric(doy),
            y = germinants,
-           color = inoculated,
+           color = as.factor(inoculated),
            group = inoculated)) +
   
   stat_summary(fun = mean, geom = "line") + 
   
-  stat_summary(
-    fun.data = mean_se,
-    geom = "errorbar",
-    width = 1
-  ) + 
+  # to remove error bars
+  # stat_summary(
+  #   fun.data = mean_se,
+  #   geom = "errorbar",
+  #   width = 1
+  # ) + 
+  
   facet_grid(seed_species ~ soil_species)
   
 
 ##### Adding to the above but trying to start with the full data set ######
 ###### January 2, 2025, by Nolan ######
 
-ggplot(deadlong,
+deadplot <- ggplot(deadlong,
        aes(x = as.numeric(doy),
            y = germinants,
-           color = inoculated,
+           color = as.factor(inoculated),
            group = inoculated)) +
   
   stat_summary(fun = mean, geom = "line") + 
   
-  stat_summary(
-    fun.data = mean_se,
-    geom = "errorbar",
-    width = 1
-  ) + 
-  facet_grid(seed_species ~ soil_species)
+  # to remove error bars
+  # stat_summary(
+  #   fun.data = mean_se,
+  #   geom = "errorbar",
+  #   width = 1
+  # ) + 
+  
+  facet_grid(seed_species ~ soil_species) 
 
+####### Jan. 11, 2026 #########
+###### Nolan, working to modify graphs #######
+
+# Set the colour scale to match the tray labels 
+deadplot + scale_color_manual(values=c("green", "red", "blue"))
+aliveplot + scale_color_manual(values=c("green", "red", "blue"))
