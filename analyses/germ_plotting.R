@@ -10,6 +10,7 @@ options(stringsAsFactors=FALSE)
 # Load libraries
 library(ggplot2)
 library(reshape)
+library(tidyverse)
 
 # set wd
 # Update to include yours with ifelse
@@ -60,7 +61,7 @@ alivelong$doy <- substr(alivelong$doy, 2, 4)
 deadlong$doy <- substr(deadlong$doy, 2, 4)
 unique(alivelong$doy)
 
-quartz()
+#quartz()
 ggplot(alivelong, aes(x=as.numeric(doy), y=germinants, color=inoculated)) +
 	geom_point() + 
 	facet_grid(seed_species~soil_species)
@@ -119,3 +120,27 @@ deadplot <- ggplot(deadlong,
 # Set the colour scale to match the tray labels 
 deadplot + scale_color_manual(values=c("green", "red", "blue"))
 aliveplot + scale_color_manual(values=c("green", "red", "blue"))
+
+##### January 16, 2026 #########
+# Combining all soil/seed treatments to only show inoculation effects, Nolan
+germinants_by_inoculation <- alivelong %>%
+  group_by(soil_species,seed_species) %>%
+  ggplot(aes(x = as.numeric(doy),
+      y = germinants,
+      color = as.factor(inoculated),
+      group = inoculated)) +
+  
+  stat_summary(fun = mean, geom = "line") + 
+  scale_color_manual(values=c("green", "red", "blue"))
+germinants_by_inoculation  
+
+deaths_by_inoculation <- deadlong %>%
+  group_by(soil_species,seed_species) %>%
+  ggplot(aes(x = as.numeric(doy),
+             y = germinants,
+             color = as.factor(inoculated),
+             group = inoculated)) +
+  
+  stat_summary(fun = mean, geom = "line") + 
+  scale_color_manual(values=c("green", "red", "blue"))
+deaths_by_inoculation
