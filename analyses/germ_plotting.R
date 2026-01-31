@@ -62,7 +62,7 @@ deadlong$doy <- substr(deadlong$doy, 2, 4)
 unique(alivelong$doy)
 
 #quartz()
-ggplot(alivelong, aes(x=as.numeric(doy), y=germinants, color=inoculated)) +
+ggplot(alivelong, aes(x=as.numeric(doy), y=germinants, color=as.factor(inoculated))) +
 	geom_point() + 
 	facet_grid(seed_species~soil_species)
 # Hmm, this looks like a good start, but ...
@@ -144,3 +144,46 @@ deaths_by_inoculation <- deadlong %>%
   stat_summary(fun = mean, geom = "line") + 
   scale_color_manual(values=c("green", "red", "blue"))
 deaths_by_inoculation
+
+
+##### Working to do some more visualisations/calculations ######
+## Jan. 31, Nolan #######
+
+##### Add a column for plot_id to group by treatment
+alivelong <- alivelong %>%
+  mutate(germ_prop = germinants/10) %>%
+  mutate(pot_id = paste(soil_species, seed_species,inoculated,sep = "_"))
+
+names(alivelong)
+view(alivelong)
+
+T50 <- alivelong %>%
+  arrange(pot_id,doy)%>%
+  group_by(pot_id,pot)%>%
+  filter(germ_prop >= 0.5)%>%
+  slice(1)%>%
+  ungroup()%>%
+  select(pot_id,pot,t50_day = doy)
+  
+view(T50)
+
+### Add the other variables to the df #####
+T50_treatments <- T50%>%
+  group_by(pot_id)%>%
+  summarise(mean_t50 = mean(as.numeric(t50_day)))%>%
+  mutate(soil_species = substr(pot_id,1,4))%>%
+  mutate(seed_species = substr(pot_id,6,9))%>%
+  mutate(inoculated = as.numeric(substr(pot_id,11,12)))
+view(T50_treatments)
+
+#### Plot the data as boxplots, still working on this ######
+T50_plot <- ggplot(T50_treatments,aes(x=inoculated,y=mean_t50,group = as.factor(inoculated), fill = as.factor(inoculated))) +
+  geom_boxplot() +
+  facet_wrap(~soil_species + seed_species)
+
+
+
+
+
+
+  
