@@ -154,8 +154,6 @@ alivelong <- alivelong %>%
   mutate(germ_prop = germinants/10) %>%
   mutate(pot_id = paste(soil_species, seed_species,inoculated,sep = "_"))
 
-names(alivelong)
-view(alivelong)
 
 T50 <- alivelong %>%
   arrange(pot_id,doy)%>%
@@ -165,25 +163,45 @@ T50 <- alivelong %>%
   ungroup()%>%
   select(pot_id,pot,t50_day = doy)
   
-view(T50)
 
-### Add the other variables to the df #####
+
+  #facet_wrap()
+### Add the other variables to the df so they can be used for facet_wrap #####
 T50_treatments <- T50%>%
+  #group_by(pot_id)%>%
+  #summarise(mean_t50 = mean(as.numeric(t50_day)))%>%
+  mutate(soil_species = substr(pot_id,1,4))%>%
+  mutate(seed_species = substr(pot_id,6,9))%>%
+  mutate(inoculated = as.numeric(substr(pot_id,11,12)))%>%
+  arrange(seed_species,soil_species)
+
+T50_stats <- T50_treatments %>%
   group_by(pot_id)%>%
-  summarise(mean_t50 = mean(as.numeric(t50_day)))%>%
+  summarise(mean_t50 = mean(as.numeric(t50_day)),
+            sd_t50 = sd(as.numeric(t50_day)))%>%
   mutate(soil_species = substr(pot_id,1,4))%>%
   mutate(seed_species = substr(pot_id,6,9))%>%
   mutate(inoculated = as.numeric(substr(pot_id,11,12)))
-view(T50_treatments)
+
+ggplot(T50_stats,aes(x=inoculated,y=mean_t50,group=pot_id))+
+  geom_point()+
+  geom_errorbar(aes(ymin = mean_t50 - sd_t50,
+                    ymax = mean_t50 + sd_t50)) + 
+  facet_wrap(seed_species~soil_species)
+
 
 #### Plot the data as boxplots, still working on this ######
-T50_plot <- ggplot(T50_treatments,aes(x=inoculated,y=mean_t50,group = as.factor(inoculated), fill = as.factor(inoculated))) +
-  geom_boxplot() +
-  facet_wrap(~soil_species + seed_species)
-
-
-
-
-
+# T50_plot <- ggplot(T50_treatments,aes(x=inoculated,y=mean_t50,group = as.factor(inoculated), fill = as.factor(inoculated))) +
+#   geom_boxplot() +
+#   facet_wrap(~soil_species)
+# 
+# T50_plot
+# 
+# PSME_T50 <- T50_treatments %>%
+#   filter(seed_species == "PSME")
+# PSME_T50_plot <- ggplot(PSME_T50,aes(x=inoculated,y=mean_t50,group = as.factor(inoculated), fill = as.factor(inoculated))) +
+#   geom_boxplot() +
+#   facet_wrap(~soil_species)
+# PSME_T50_plot
 
   
