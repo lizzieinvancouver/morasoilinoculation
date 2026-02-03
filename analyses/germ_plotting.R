@@ -35,9 +35,12 @@ ifelse(
 # should be INPUT (not inputs)
 
 # First, bring in full, most recent dataset (will talk to Mao about lab protocols for doing this)
-seedsraw <- read.csv('inputs/germination_data_01_02.csv') # Full data set with alive and dead, from Jan. 2
-seeds <- seedsraw
+seedsraw <- read.csv('inputs/germination_data.csv') # Full data set with alive and dead, from Jan. 2
+seeds <- seedsraw[1:210,]
 seeds[is.na(seeds)] <- 0 #  This works, all empty cells mean no germinants (of any kind) observed
+
+
+seeds$seed_species <- str_trim(seeds$seed_species, side = "right")
 
 # filter out all columns containing dead data
 aliveraw <- seeds[, !grepl("dead", names(seeds))]
