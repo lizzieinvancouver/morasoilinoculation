@@ -121,8 +121,8 @@ deadplot <- ggplot(deadlong,
 ###### Nolan, working to modify graphs #######
 
 # Set the colour scale to match the tray labels 
-deadplot + scale_color_manual(values=c("green", "red", "blue"))
-aliveplot + scale_color_manual(values=c("green", "red", "blue"))
+deadplot + scale_color_manual(values=c("green", "salmon", "blue"))
+aliveplot + scale_color_manual(values=c("green", "salmon", "blue"))
 
 ##### January 16, 2026 #########
 # Combining all soil/seed treatments to only show inoculation effects, Nolan
@@ -134,7 +134,7 @@ germinants_by_inoculation <- alivelong %>%
       group = inoculated)) +
   
   stat_summary(fun = mean, geom = "line") + 
-  scale_color_manual(values=c("green", "red", "blue"))
+  scale_color_manual(values=c("green", "salmon", "blue"))
 germinants_by_inoculation  
 
 deaths_by_inoculation <- deadlong %>%
@@ -145,7 +145,7 @@ deaths_by_inoculation <- deadlong %>%
              group = inoculated)) +
   
   stat_summary(fun = mean, geom = "line") + 
-  scale_color_manual(values=c("green", "red", "blue"))
+  scale_color_manual(values=c("green", "salmon", "blue"))
 deaths_by_inoculation
 
 
@@ -193,18 +193,49 @@ ggplot(T50_stats,aes(x=inoculated,y=mean_t50,group=pot_id))+
   facet_wrap(seed_species~soil_species)
 
 
-#### Plot the data as boxplots, still working on this ######
-# T50_plot <- ggplot(T50_treatments,aes(x=inoculated,y=mean_t50,group = as.factor(inoculated), fill = as.factor(inoculated))) +
-#   geom_boxplot() +
-#   facet_wrap(~soil_species)
-# 
-# T50_plot
-# 
-# PSME_T50 <- T50_treatments %>%
-#   filter(seed_species == "PSME")
-# PSME_T50_plot <- ggplot(PSME_T50,aes(x=inoculated,y=mean_t50,group = as.factor(inoculated), fill = as.factor(inoculated))) +
-#   geom_boxplot() +
-#   facet_wrap(~soil_species)
-# PSME_T50_plot
 
-  
+######## Nolan, Feb. 9, 2026 #######
+### Adding splines to the scatter plots done previously by Lizzie
+
+spline_0 <- alivelong %>%
+  filter(inoculated == 0)%>%
+  ggplot(aes(x=as.numeric(doy), y=germinants, color=as.factor(inoculated))) +
+  geom_point() + 
+  geom_smooth(method = "gam",formula = y~s(x),se=FALSE)+
+  facet_grid(seed_species~soil_species) + 
+  scale_color_manual(values=c("darkgreen", "salmon", "skyblue"))
+spline_0
+
+spline_10 <- alivelong %>%
+  filter(inoculated == 10)%>%
+  ggplot(aes(x=as.numeric(doy), y=germinants, color=as.factor(inoculated))) +
+  geom_point() + 
+  geom_smooth(method = "gam",formula = y~s(x),se=FALSE)+
+  facet_grid(seed_species~soil_species) + 
+  scale_color_manual(values=c("salmon"))
+spline_10
+
+spline_25 <- alivelong %>%
+  filter(inoculated == 25)%>%
+  ggplot(aes(x=as.numeric(doy), y=germinants, color=as.factor(inoculated))) +
+  geom_point() + 
+  geom_smooth(method = "gam",formula = y~s(x),se=FALSE)+
+  facet_grid(seed_species~soil_species) + 
+  scale_color_manual(values=c("blue"))
+spline_25
+
+
+deadlong %>%
+  filter(doy==393)%>%
+  group_by(seed_species)%>%
+  summarise(mean_dead = mean(germinants))
+
+deadlong %>%
+  filter(doy==393)%>%
+  group_by(soil_species)%>%
+  summarise(mean_dead = mean(germinants))
+
+deadlong %>%
+  filter(doy==393)%>%
+  group_by(inoculated)%>%
+  summarise(mean_dead = mean(germinants))
