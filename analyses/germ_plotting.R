@@ -65,9 +65,12 @@ deadlong$doy <- substr(deadlong$doy, 2, 4)
 unique(alivelong$doy)
 
 #quartz()
-ggplot(alivelong, aes(x=as.numeric(doy), y=germinants, color=as.factor(inoculated))) +
+germination_by_treatment <- ggplot(alivelong, aes(x=as.numeric(doy), y=germinants, color=as.factor(inoculated))) +
 	geom_point() + 
 	facet_grid(seed_species~soil_species)
+
+ggsave(file = "./figures/germination_by_treatment.pdf", plot = germination_by_treat, dpi = 800, units = "mm", width = 150, height = 100)
+
 # Hmm, this looks like a good start, but ...
 	# it would be better if we summarized the data by inoluction level using ggplot stats etc.
 	# would be great to work on that next if someone has time!
@@ -122,7 +125,9 @@ deadplot <- ggplot(deadlong,
 
 # Set the colour scale to match the tray labels 
 deadplot + scale_color_manual(values=c("green", "salmon", "blue"))
+ggsave(file = "./figures/average_deaths_by_treatment.pdf", plot = deadplot, dpi = 800, units = "mm", width = 150, height = 100)
 aliveplot + scale_color_manual(values=c("green", "salmon", "blue"))
+ggsave(file = "./figures/average_germinants_by_treatment.pdf", plot = aliveplot, dpi = 800, units = "mm", width = 150, height = 100)
 
 ##### January 16, 2026 #########
 # Combining all soil/seed treatments to only show inoculation effects, Nolan
@@ -137,6 +142,8 @@ germinants_by_inoculation <- alivelong %>%
   scale_color_manual(values=c("green", "salmon", "blue"))
 germinants_by_inoculation  
 
+ggsave(file = "./figures/germ_by_inoculation.pdf", plot = germinants_by_inoculation, dpi = 800, units = "mm", width = 150, height = 100)
+
 deaths_by_inoculation <- deadlong %>%
   group_by(soil_species,seed_species) %>%
   ggplot(aes(x = as.numeric(doy),
@@ -147,6 +154,7 @@ deaths_by_inoculation <- deadlong %>%
   stat_summary(fun = mean, geom = "line") + 
   scale_color_manual(values=c("green", "salmon", "blue"))
 deaths_by_inoculation
+ggsave(file = "./figures/deaths_by_inoculation.pdf", plot = deaths_by_inoculation, dpi = 800, units = "mm", width = 150, height = 100)
 
 
 ##### Working to do some more visualisations/calculations ######
@@ -186,11 +194,12 @@ T50_stats <- T50_treatments %>%
   mutate(seed_species = substr(pot_id,6,9))%>%
   mutate(inoculated = as.numeric(substr(pot_id,11,12)))
 
-ggplot(T50_stats,aes(x=inoculated,y=mean_t50,group=pot_id))+
+t50_plots <- ggplot(T50_stats,aes(x=inoculated,y=mean_t50,group=pot_id))+
   geom_point()+
   geom_errorbar(aes(ymin = mean_t50 - sd_t50,
                     ymax = mean_t50 + sd_t50)) + 
   facet_wrap(seed_species~soil_species)
+ggsave(file = "./figures/T50_by_treatment.pdf", plot = t50_plots, dpi = 800, units = "mm", width = 150, height = 100)
 
 
 
@@ -206,6 +215,8 @@ spline_0 <- alivelong %>%
   scale_color_manual(values=c("darkgreen", "salmon", "skyblue"))
 spline_0
 
+ggsave(file = "./figures/spline_0.pdf", plot = spline_0, dpi = 800, units = "mm", width = 150, height = 100)
+
 spline_10 <- alivelong %>%
   filter(inoculated == 10)%>%
   ggplot(aes(x=as.numeric(doy), y=germinants, color=as.factor(inoculated))) +
@@ -214,6 +225,7 @@ spline_10 <- alivelong %>%
   facet_grid(seed_species~soil_species) + 
   scale_color_manual(values=c("salmon"))
 spline_10
+ggsave(file = "./figures/spline_10.pdf", plot = spline_10, dpi = 800, units = "mm", width = 150, height = 100)
 
 spline_25 <- alivelong %>%
   filter(inoculated == 25)%>%
@@ -223,6 +235,7 @@ spline_25 <- alivelong %>%
   facet_grid(seed_species~soil_species) + 
   scale_color_manual(values=c("blue"))
 spline_25
+ggsave(file = "./figures/spline_25.pdf", plot = spline_25, dpi = 800, units = "mm", width = 150, height = 100)
 
 
 deadlong %>%
