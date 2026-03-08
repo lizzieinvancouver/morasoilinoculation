@@ -239,17 +239,17 @@ ggsave(file = "./figures/spline_25.pdf", plot = spline_25, dpi = 800, units = "m
 
 
 deadlong %>%
-  filter(doy==421)%>%
+  filter(doy==428)%>%
   group_by(seed_species)%>%
   summarise(mean_dead = mean(germinants))
 
 deadlong %>%
-  filter(doy==421)%>%
+  filter(doy==428)%>%
   group_by(soil_species)%>%
   summarise(mean_dead = mean(germinants))
 
 deadlong %>%
-  filter(doy==421)%>%
+  filter(doy==428)%>%
   group_by(inoculated)%>%
   summarise(mean_dead = mean(germinants))
 
@@ -276,5 +276,5 @@ alive_dead_long %>%
   summarise(prop_dead = mean(deaths)/(mean(deaths)+mean(germinants)))
 
 alive_dead_long %>%
-  filter(doy==421)%>%
+  filter(doy==428)%>%
   summarise(mean_dead = mean(deaths))
