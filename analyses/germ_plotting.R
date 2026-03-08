@@ -69,7 +69,7 @@ germination_by_treatment <- ggplot(alivelong, aes(x=as.numeric(doy), y=germinant
 	geom_point() + 
 	facet_grid(seed_species~soil_species)
 
-ggsave(file = "./figures/germination_by_treatment.pdf", plot = germination_by_treat, dpi = 800, units = "mm", width = 150, height = 100)
+ggsave(file = "./figures/germination_by_treatment.pdf", plot = germination_by_treatment, dpi = 800, units = "mm", width = 150, height = 100)
 
 # Hmm, this looks like a good start, but ...
 	# it would be better if we summarized the data by inoluction level using ggplot stats etc.
@@ -161,45 +161,45 @@ ggsave(file = "./figures/deaths_by_inoculation.pdf", plot = deaths_by_inoculatio
 ## Jan. 31, Nolan #######
 
 ##### Add a column for plot_id to group by treatment
-alivelong <- alivelong %>%
-  mutate(germ_prop = germinants/10) %>%
-  mutate(pot_id = paste(soil_species, seed_species,inoculated,sep = "_"))
-
-
-T50 <- alivelong %>%
-  arrange(pot_id,doy)%>%
-  group_by(pot_id,pot)%>%
-  filter(germ_prop >= 0.5)%>%
-  slice(1)%>%
-  ungroup()%>%
-  select(pot_id,pot,t50_day = doy)
-  
-
-
-  #facet_wrap()
-### Add the other variables to the df so they can be used for facet_wrap #####
-T50_treatments <- T50%>%
-  #group_by(pot_id)%>%
-  #summarise(mean_t50 = mean(as.numeric(t50_day)))%>%
-  mutate(soil_species = substr(pot_id,1,4))%>%
-  mutate(seed_species = substr(pot_id,6,9))%>%
-  mutate(inoculated = as.numeric(substr(pot_id,11,12)))%>%
-  arrange(seed_species,soil_species)
-
-T50_stats <- T50_treatments %>%
-  group_by(pot_id)%>%
-  summarise(mean_t50 = mean(as.numeric(t50_day)),
-            sd_t50 = sd(as.numeric(t50_day)))%>%
-  mutate(soil_species = substr(pot_id,1,4))%>%
-  mutate(seed_species = substr(pot_id,6,9))%>%
-  mutate(inoculated = as.numeric(substr(pot_id,11,12)))
-
-t50_plots <- ggplot(T50_stats,aes(x=inoculated,y=mean_t50,group=pot_id))+
-  geom_point()+
-  geom_errorbar(aes(ymin = mean_t50 - sd_t50,
-                    ymax = mean_t50 + sd_t50)) + 
-  facet_wrap(seed_species~soil_species)
-ggsave(file = "./figures/T50_by_treatment.pdf", plot = t50_plots, dpi = 800, units = "mm", width = 150, height = 100)
+# alivelong <- alivelong %>%
+#   mutate(germ_prop = germinants/10) %>%
+#   mutate(pot_id = paste(soil_species, seed_species,inoculated,sep = "_"))
+# 
+# 
+# T50 <- alivelong %>%
+#   arrange(pot_id,doy)%>%
+#   group_by(pot_id,pot)%>%
+#   filter(germ_prop >= 0.5)%>%
+#   slice(1)%>%
+#   ungroup()%>%
+#   select(pot_id,pot,t50_day = doy)
+#   
+# 
+# 
+#   #facet_wrap()
+# ### Add the other variables to the df so they can be used for facet_wrap #####
+# T50_treatments <- T50%>%
+#   #group_by(pot_id)%>%
+#   #summarise(mean_t50 = mean(as.numeric(t50_day)))%>%
+#   mutate(soil_species = substr(pot_id,1,4))%>%
+#   mutate(seed_species = substr(pot_id,6,9))%>%
+#   mutate(inoculated = as.numeric(substr(pot_id,11,12)))%>%
+#   arrange(seed_species,soil_species)
+# 
+# T50_stats <- T50_treatments %>%
+#   group_by(pot_id)%>%
+#   summarise(mean_t50 = mean(as.numeric(t50_day)),
+#             sd_t50 = sd(as.numeric(t50_day)))%>%
+#   mutate(soil_species = substr(pot_id,1,4))%>%
+#   mutate(seed_species = substr(pot_id,6,9))%>%
+#   mutate(inoculated = as.numeric(substr(pot_id,11,12)))
+# 
+# t50_plots <- ggplot(T50_stats,aes(x=inoculated,y=mean_t50,group=pot_id))+
+#   geom_point()+
+#   geom_errorbar(aes(ymin = mean_t50 - sd_t50,
+#                     ymax = mean_t50 + sd_t50)) + 
+#   facet_wrap(seed_species~soil_species)
+# ggsave(file = "./figures/T50_by_treatment.pdf", plot = t50_plots, dpi = 800, units = "mm", width = 150, height = 100)
 
 
 
@@ -239,16 +239,42 @@ ggsave(file = "./figures/spline_25.pdf", plot = spline_25, dpi = 800, units = "m
 
 
 deadlong %>%
-  filter(doy==393)%>%
+  filter(doy==421)%>%
   group_by(seed_species)%>%
   summarise(mean_dead = mean(germinants))
 
 deadlong %>%
-  filter(doy==393)%>%
+  filter(doy==421)%>%
   group_by(soil_species)%>%
   summarise(mean_dead = mean(germinants))
 
 deadlong %>%
-  filter(doy==393)%>%
+  filter(doy==421)%>%
   group_by(inoculated)%>%
   summarise(mean_dead = mean(germinants))
+
+### Creating a df with alive and dead to calculate relative proportions of deaths ###
+deadlong_renamed <- rename(deadlong, deaths=germinants)
+
+alive_dead_long <- merge(alivelong, deadlong_renamed, all = TRUE)
+view(alive_dead_long)
+
+### Calculating death count proportional to germinant count ###
+alive_dead_long %>%
+  filter(doy==428)%>%
+  group_by(seed_species)%>%
+  summarise(prop_dead = mean(deaths)/(mean(deaths)+mean(germinants)))
+
+alive_dead_long %>%
+  filter(doy==428)%>%
+  group_by(soil_species)%>%
+  summarise(prop_dead = mean(deaths)/(mean(deaths)+mean(germinants)))
+
+alive_dead_long %>%
+  filter(doy==428)%>%
+  group_by(inoculated)%>%
+  summarise(prop_dead = mean(deaths)/(mean(deaths)+mean(germinants)))
+
+alive_dead_long %>%
+  filter(doy==421)%>%
+  summarise(mean_dead = mean(deaths))
